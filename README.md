@@ -11,3 +11,11 @@
 Brain tumors affect **250,000 people annually**. Manual MRI segmentation takes **7+ days**. Our system segments tumors in **30 seconds** with attention-guided focus.
 
 ## 🏗️ Architecture
+vbrats_project/
+├── dataset_fixed.py          # Patient-level split + augmentation
+├── model_attention.py        # Attention U-Net architecture
+├── train_attention.py        # Training script
+├── visualize_attention.py    # Attention heatmaps
+├── plot_training_curves.py   # Training curves
+├── test_eval.py              # Test evaluation
+└── results/                  # Generated figures
